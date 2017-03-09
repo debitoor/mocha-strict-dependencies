@@ -1,0 +1,41 @@
+{
+  "name": "@debitoor/mocha-strict-dependencies",
+  "version": "1.0.0",
+  "description": "Mocha test, that checks that you have strict dependencies on your package.json, except of whitelisted",
+  "main": "mocha-strict-dependencies.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debitoor/mocha-strict-dependencies.git"
+  },
+  "keywords": [
+    "mocha",
+    "test",
+    "package.json",
+    "strict",
+    "version",
+    "versions",
+    "dependencies",
+    "devDependencies"
+  ],
+  "author": "Andrii Shumada <eagleeyes91@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/debitoor/mocha-strict-dependencies/issues"
+  },
+  "homepage": "https://github.com/debitoor/mocha-strict-dependencies#readme",
+  "devDependencies": {
+    "@debitoor/eslint-config-debitoor": "1.2.0",
+    "deep-extend": "~0.4.1",
+    "mocha": "3.2.0",
+    "mocha-eslint": "3.0.1"
+  },
+  "dependencies": {
+    "chai": "3.5.0"
+  },
+  "files": [
+    "mocha-strict-dependencies"
+  ]
+}
