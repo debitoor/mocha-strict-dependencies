@@ -5,6 +5,7 @@ Mocha test, that checks that you have strict dependencies in your package.json, 
 ```bash
 npm i -DE @debitoor/mocha-strict-dependencies
 echo "require('@debitoor/mocha-strict-dependencies')([]);" > test/strict-dependencies.spec.js
+git add test/strict-dependencies.spec.js
 ```
 # Configuration
 ```js
