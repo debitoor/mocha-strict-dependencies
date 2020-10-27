@@ -29,7 +29,7 @@
   "devDependencies": {
     "@debitoor/eslint-config-debitoor": "1.2.0",
     "cnf": "github:debitoor/cnf#a9185a5",
-    "deep-extend": "~0.4.1",
+    "deep-extend": "~0.6.0",
     "mocha": "3.2.0",
     "mocha-eslint": "3.0.1"
   },
